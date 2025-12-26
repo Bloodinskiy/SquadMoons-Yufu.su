@@ -999,14 +999,14 @@
         }
         
         .honor-title {
-            font-size: 1.3em;
-            margin-bottom: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
             color: var(--white);
         }
         
         .honor-cost {
-            font-size: 1.5em;
-            font-weight: bold;
+            font-size: 1em;
+            margin-bottom: 10px;
             color: #cccccc;
         }
         
@@ -1515,22 +1515,33 @@
                         <div class="honor-card">
                             <div class="honor-title">1 Степень</div>
                             <div class="honor-cost">Позволяет пропустить один пункт в критериях</div>
+                            <div class="rank-cooldown">Выдается инструктором и выше</div>
+                            <div class="rank-cooldown"><i class="fas fa-clock"></i>Время отката на выдачу: 3 дня</div>
+                            <div class="rank-cooldown"><i class="fas fa-hourglass-half"></i>Время отката на использование: 3 дня</div>
                         </div>
                         
                         <div class="honor-card">
                             <div class="honor-title">2 Степень</div>
                             <div class="honor-cost">Позволяет пропустить два пункта в критериях</div>
+                            <div class="rank-cooldown">Выдается Низшей луной и выше</div>
+                            <div class="rank-cooldown"><i class="fas fa-clock"></i>Время отката на выдачу: 4 дня</div>
+                            <div class="rank-cooldown"><i class="fas fa-hourglass-half"></i>Время отката на использование: 3 дня</div>
                         </div>
                         
                         <div class="honor-card">
                             <div class="honor-title">3 Степень</div>
                             <div class="honor-cost">Позволяет пропустить три пункта в критериях</div>
+                            <div class="rank-cooldown"> Выдается Высшей луной</div>
+                            <div class="rank-cooldown"><i class="fas fa-clock"></i> Время отката на выдачу: 5 дней</div>
+                            <div class="rank-cooldown"><i class="fas fa-hourglass-half"></i> Время отката на использование: 3 дня</div>
                         </div>
                         
                         <div class="honor-card special">
                             <div class="honor-title">Кровавая печать</div>
                             <div class="honor-cost free">Позволяет повысить ранг, пропуская все критерии</div>
-                            <p style="color: var(--light); font-size: 0.9em; margin-top: 10px;">Баллы не требуются</p>
+                            <div class="rank-cooldown"> Выдается Прародителем или заместителем</div>
+                            <div class="rank-cooldown"><i class="fas fa-clock"></i> Время отката на выдачу: 7 дней</div>
+                            <div class="rank-cooldown"><i class="fas fa-hourglass-half"></i> Время отката на использование: 7 дней</div>
                         </div>
                     </div>
                 </div>
@@ -1684,7 +1695,7 @@
                                 <div class="member-rank">4-я Высшая Луна</div>
                                 <div class="member-name">Nakime</div>
                                 <div class="member-role">Заместитель главы отряда полумесяцев<br>Высшее руководство</div>
-							</div>	
+                            </div>  
                         </div>
                     </div>
 
@@ -2401,10 +2412,3 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
